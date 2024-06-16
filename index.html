@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <style>
+        /* Basic styling for the quiz */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .quiz-container {
+            display: none;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .options li:hover {
+            background: #e0e0e0;
+        }
+        .timer {
+            margin-bottom: 20px;
+        }
+        .fullscreen-message {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="timer">Time left: <span id="timer">10:00</span></div>
+        <div class="question" id="question"></div>
+        <ul class="options" id="options"></ul>
+        <button id="nextBtn">Next</button>
+    </div>
+    <div class="fullscreen-message">
+        <p>Please enable full screen to start the quiz.</p>
+        <button onclick="startQuiz()">Go Full Screen</button>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

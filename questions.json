@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is 'M' stands for in HTML",
+        "options": ["Marked", "Marks", "Markup", "Markingup"]
+    },
+    {
+        "question": "What is the full form of CSS?",
+        "options": ["Casecading Styles Sheet", "Cascading Style Sheets", "Casacoding Style Sheets", "None of the Above"]
+    },
+    {
+        "question": " Inline CSS is added using ____________",
+        "options": ["using style tag", " using style attribute", " using link tag", "both ii). and iii)."]
+    },
+    {
+        "question": "CSS describes the_____",
+        "options": ["Structure of a webpage", "Skeleton of a webpage", "Layout of the webpage", "None"]
+    },
+    {
+        "question": "What is the extension for external CSS files?",
+        "options": ["css", ".css", ",css", "None"]
+    },
+    {
+        "question": "Which one is used for id selector in CSS?",
+        "options": [".", "#", "$", "None of the above"]
+    },
+    {
+        "question": "How many types of CSS?",
+        "options": ["1", "2", "3", "4"]
+    },
+    {
+        "question": "What are the values of CSS font-weight property?",
+        "options": [" bold, lighter, bolder, width, normal, revert", "bold, lighter, bolder, unset, normal, inherit", "bold, lighter, bolder, unset, normal, justify", "All of the above"]
+    },
+    {
+        "question": "Which CSS property is used to set the size of HTML text?",
+        "options": ["size", "font-size", "fonts-size", "none"]
+    },
+    {
+        "question": "Which CSS property is used to add font-family?",
+        "options": ["font-families: 'sans-serif', Poppins;", "font-family: 'sans-serif', Poppins;", "Both i). and ii).", " None of the above"]
+    }
+]
